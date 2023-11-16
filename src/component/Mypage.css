@@ -1,0 +1,100 @@
+.screen {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.screen .div {
+  background-color: #ffffff;
+  height: 1667px;
+  position: relative;
+  width: 1300px;
+}
+
+.screen .main {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-color: #f9f9f9;
+  height: 842px;
+  left: 0;
+  position: absolute;
+  top: 144px;
+  width: 1300px;
+}
+
+.screen .text-wrapper {
+  color: #5a5a5a;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  height: 75px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  top: 25px;
+  width: 102px;
+}
+
+.screen .link {
+  background-color: #ffffff;
+  border-radius: 6px;
+  height: 390px;
+  left: 0;
+  position: absolute;
+  top: 75px;
+  width: 234px;
+}
+
+.screen .div-relative {
+  border: 1px solid;
+  border-color: #e6e6e6;
+  border-radius: 8px;
+  height: 144px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1300px;
+}
+
+.screen .div-flex {
+  border-color: #e6e6e6;
+  border-right-style: solid;
+  border-right-width: 1px;
+  height: 102px;
+  left: 21px;
+  position: absolute;
+  top: 21px;
+  width: 618px;
+}
+
+.screen .nickname {
+  height: 68px;
+  position: relative;
+  top: 9px;
+  width: 597px;
+}
+
+.screen .nickname {
+  color: #000000;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 22.9px;
+  font-weight: 600;
+  height: 32px;
+  left: 80px;
+  letter-spacing: 0;
+  line-height: 32px;
+  position: absolute;
+  top: 17px;
+  white-space: nowrap;
+  width: 103px;
+}
+
+.screen .relative {
+  height: 102px;
+  left: 669px;
+  position: absolute;
+  top: 21px;
+  width: 601px;
+}

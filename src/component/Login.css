@@ -1,0 +1,176 @@
+:root {
+  --webjoongnacomblack: rgba(0, 0, 0, 1);
+  --webjoongnacommalachite: rgba(0, 199, 60, 1);
+  --webjoongnacomnero: rgba(255, 255, 255, 1);
+  --webjoongnacomturbo: rgba(254, 229, 0, 1);
+}
+.login {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.login .div {
+  background-color: #ffffff;
+  height: 1080px;
+  position: relative;
+  width: 1300px;
+}
+
+.login .rectangle {
+  height: 28px;
+  left: 1150px;
+  position: absolute;
+  top: 5px;
+  width: 120px;
+  background-color: #ffffff;
+  border: 0.5px solid;
+  border-color: #000000;
+  border-radius: 15px;
+  font-size: 13px;
+}
+
+.login .view-2 {
+  height: 295px;
+  left: 461px;
+  position: absolute;
+  top: 210px;
+  width: 413px;
+}
+
+.login .text-wrapper-3 {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(
+    180deg,
+    rgb(51, 0, 255) 0%,
+    rgb(173.4, 0, 255) 100%
+  );
+  background-clip: text;
+  color: transparent;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  left: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 384px;
+}
+
+.login .p {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 75px;
+  width: 384px;
+}
+
+.login .ID {
+  height: 58px;
+  left: 11px;
+  position: absolute;
+  top: 137px;
+  width: 386px;
+}
+
+.login .div-wrapper {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #cb5fff;
+  border-radius: 10px;
+  height: 58px;
+  position: relative;
+  width: 384px;
+}
+
+.login .text-wrapper-4 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 41px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 20px;
+  white-space: nowrap;
+  width: 310px;
+}
+
+.login .overlap {
+  height: 16px;
+  left: 0;
+  position: absolute;
+  top: 279px;
+  width: 407px;
+}
+
+.login .text-wrapper-5 {
+  color: #4e4e4e;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 407px;
+}
+
+.login .line {
+  height: 1px;
+  left: 130px;
+  position: absolute;
+  top: 8px;
+  width: 277px;
+}
+
+.login .button-wrapper {
+  height: 48px;
+  left: 472px;
+  position: absolute;
+  top: 557px;
+  width: 384px;
+}
+
+.login .button {
+  align-items: center;
+  background-color: #ffffffa3;
+  border: 0.5px solid;
+  border-color: #000000;
+  border-radius: 10px;
+  display: flex;
+  height: 48px;
+  justify-content: space-around;
+  padding: 14px 32px;
+  position: relative;
+  width: 384px;
+}
+.login .button2 {
+  align-items: center;
+  background-color: #ffffffa3;
+  border: 0.5px solid;
+  border-color: #000000;
+  border-radius: 10px;
+  display: flex;
+  height: 48px;
+  justify-content: space-around;
+  padding: 14px 32px;
+  position: relative;
+  width: 384px;
+  top: 15px;
+}

@@ -1,0 +1,47 @@
+#header {
+  height: 6.4rem;
+}
+
+#header_wrap {
+  height: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+#header_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header_content form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#header_content img {
+  display: block;
+  margin: 0 auto;
+}
+
+.header_menu_selected {
+  color: #ff6f0f;
+  font-style: normal;
+  font-weight: 700;
+  font-size: large;
+  background-color: white;
+  border: none;
+}
+
+.header_menu {
+  color: #4d5159;
+  font-style: normal;
+  font-weight: 700;
+  font-size: large;
+  background-color: white;
+  border: none;
+}
