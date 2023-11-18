@@ -76,7 +76,10 @@ const Mysell = () => {
               }}
             >
               {selectedImages.map((image, index) => (
-                <div key={index} style={{ marginRight: "5px" }}>
+                <div
+                  key={index}
+                  style={{ marginRight: "5px", position: "relative" }}
+                >
                   <img
                     src={image}
                     alt={`이미지 ${index + 1}`}
@@ -86,7 +89,20 @@ const Mysell = () => {
                       objectFit: "cover",
                     }}
                   />
-                  <button onClick={() => removeImage(index)}>X</button>
+                  <button
+                    onClick={() => removeImage(index)}
+                    style={{
+                      position: "absolute",
+                      top: 0,
+                      right: 0,
+                      zIndex: 1, // 다른 요소 위에 표시되도록 zIndex 추가
+                      background: "transparent", // 배경을 투명하게 설정
+                      border: "none", // 테두리 제거
+                      color: "white", // 텍스트 색상을 흰색으로 설정 (선택 사항)
+                    }}
+                  >
+                    X
+                  </button>
                 </div>
               ))}
             </div>
@@ -218,9 +234,9 @@ const Mysell = () => {
             placeholder="가격 입력" // 힌트 문구를 추가해 사용자에게 보여줍니다.
           />
         </div>
-        <div className="frame">
-          <div className="text-wrapper-5">상세정보</div>
+        <div className="det">
           <hr /> {/* 가로선 */}
+          <div className="detail_text">상세정보</div>
           <textarea
             className="details-textarea"
             placeholder="물품의 상세정보를 입력해주세요"

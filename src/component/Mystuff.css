@@ -1,4 +1,4 @@
-.web-joongna-com-by {
+.div-mx-auto {
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
@@ -6,27 +6,25 @@
   width: 100%;
 }
 
-.web-joongna-com-by .div-mx-auto-wrapper {
+.div-mx-auto .div {
   background-color: #ffffff;
-  height: 3622px;
-  overflow-x: hidden;
-  width: 1300px;
-}
-
-.web-joongna-com-by .div-mx-auto {
-  height: 3622px;
-}
-
-.web-joongna-com-by .div-items-start {
-  align-items: flex-start;
-  display: flex;
-  gap: 56px;
-  padding: 40px 0px 80px;
+  height: 3600px;
   position: relative;
   width: 1300px;
 }
 
-.web-joongna-com-by .div-carouselwrapper {
+.div-mx-auto .div-items-start {
+  align-items: flex-start;
+  display: flex;
+  gap: 56px;
+  left: 0;
+  padding: 40px 0px 80px;
+  position: absolute;
+  top: 0;
+  width: 1300px;
+}
+
+.div-mx-auto .div-carouselwrapper {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -34,19 +32,38 @@
   width: 612px;
 }
 
-.web-joongna-com-by .div-swiper {
+.div-mx-auto .div-swiper {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
   height: 614px;
+  overflow: hidden;
   position: relative;
   width: 612px;
 }
 
-.web-joongna-com-by .group {
+.div-mx-auto .shop {
+  height: 614px;
+  object-fit: cover;
+  position: relative;
+  width: 612px;
+}
+
+.div-mx-auto .rectangle {
+  background-color: #d9d9d9;
+  height: 1450px;
+  margin-right: -688px;
+  position: relative;
+  width: 1300px;
+}
+
+.div-mx-auto .group {
   height: 367px;
   position: relative;
   width: 612px;
 }
 
-.web-joongna-com-by .div-flex {
+.div-mx-auto .div-flex {
   align-items: center;
   border-bottom-style: solid;
   border-bottom-width: 1px;
@@ -59,7 +76,7 @@
   width: 612px;
 }
 
-.web-joongna-com-by .button {
+.div-mx-auto .button {
   background-color: var(--webjoongnacomnero);
   border: 1px solid;
   border-color: var(--webjoongnacomcod-gray);
@@ -69,7 +86,7 @@
   width: 298.55px;
 }
 
-.web-joongna-com-by .div-py {
+.div-mx-auto .div-py {
   align-items: flex-start;
   border-bottom-style: solid;
   border-bottom-width: 1px;
@@ -83,7 +100,7 @@
   width: 612px;
 }
 
-.web-joongna-com-by .span-wrapper {
+.div-mx-auto .span-wrapper {
   align-items: center;
   align-self: stretch;
   display: flex;
@@ -95,7 +112,7 @@
   width: 100%;
 }
 
-.web-joongna-com-by .span {
+.div-mx-auto .span {
   align-items: flex-start;
   align-self: stretch;
   display: inline-flex;
@@ -105,7 +122,7 @@
   position: relative;
 }
 
-.web-joongna-com-by .text-wrapper {
+.div-mx-auto .text-wrapper {
   color: var(--webjoongnacomscorpion);
   font-family: "Inter-Regular", Helvetica;
   font-size: 13.1px;
@@ -118,7 +135,7 @@
   width: fit-content;
 }
 
-.web-joongna-com-by .div {
+.div-mx-auto .div-flex-2 {
   align-items: flex-start;
   align-self: stretch;
   display: flex;
@@ -128,7 +145,7 @@
   width: 100%;
 }
 
-.web-joongna-com-by .div-flex-2 {
+.div-mx-auto .div-flex-3 {
   align-items: flex-start;
   align-self: stretch;
   border-color: var(--webjoongnacommercury);
@@ -143,7 +160,7 @@
   position: relative;
 }
 
-.web-joongna-com-by .span-block {
+.div-mx-auto .span-block {
   align-items: flex-start;
   align-self: stretch;
   display: flex;
@@ -154,7 +171,7 @@
   width: 100%;
 }
 
-.web-joongna-com-by .text-wrapper-2 {
+.div-mx-auto .text-wrapper-2 {
   color: var(--webjoongnacommine-shaft);
   font-family: "Inter-SemiBold", Helvetica;
   font-size: 16.9px;
@@ -167,7 +184,7 @@
   width: fit-content;
 }
 
-.web-joongna-com-by .div-flex-3 {
+.div-mx-auto .div-flex-4 {
   align-items: flex-start;
   align-self: stretch;
   border-color: var(--webjoongnacommercury);
@@ -182,7 +199,7 @@
   position: relative;
 }
 
-.web-joongna-com-by .div-wrapper {
+.div-mx-auto .div-wrapper {
   align-items: flex-start;
   align-self: stretch;
   display: flex;
@@ -193,7 +210,7 @@
   width: 100%;
 }
 
-.web-joongna-com-by .div-flex-4 {
+.div-mx-auto .div-flex-5 {
   align-items: flex-start;
   align-self: stretch;
   display: flex;
@@ -205,7 +222,7 @@
   position: relative;
 }
 
-.web-joongna-com-by .span-block-2 {
+.div-mx-auto .span-block-2 {
   align-items: flex-start;
   align-self: stretch;
   display: flex;
@@ -216,7 +233,7 @@
   width: 100%;
 }
 
-.web-joongna-com-by .text-wrapper-3 {
+.div-mx-auto .text-wrapper-3 {
   color: var(--webjoongnacommine-shaft);
   font-family: "Inter-SemiBold", Helvetica;
   font-size: 17px;
@@ -229,7 +246,7 @@
   width: fit-content;
 }
 
-.web-joongna-com-by .item {
+.div-mx-auto .item {
   align-items: flex-start;
   align-self: stretch;
   display: flex;
@@ -239,38 +256,21 @@
   width: 100%;
 }
 
-.web-joongna-com-by .span-inline-block {
-  align-items: flex-start;
+.div-mx-auto .span-inline-block {
   align-self: stretch;
-  display: flex;
   flex: 0 0 auto;
-  flex-direction: column;
-  padding: 0px 529px 0px 0px;
   position: relative;
   width: 100%;
 }
 
-.web-joongna-com-by .text-wrapper-4 {
-  color: var(--webjoongnacommine-shaft);
-  font-family: "Inter-SemiBold", Helvetica;
-  font-size: 13.1px;
-  font-weight: 600;
-  letter-spacing: 0;
-  line-height: 20px;
-  margin-top: -1px;
-  position: relative;
-  white-space: nowrap;
-  width: fit-content;
-}
-
-.web-joongna-com-by .div-flex-5 {
+.div-mx-auto .div-flex-6 {
   align-self: stretch;
   height: 38px;
   position: relative;
   width: 100%;
 }
 
-.web-joongna-com-by .div-pb {
+.div-mx-auto .div-pb {
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-color: var(--webjoongnacommercury);
@@ -281,7 +281,7 @@
   width: 612px;
 }
 
-.web-joongna-com-by .view {
+.div-mx-auto .view {
   align-items: center;
   display: flex;
   justify-content: space-around;
@@ -292,20 +292,13 @@
   width: 612px;
 }
 
-.web-joongna-com-by .div-text-heading {
+.div-mx-auto .div-text-heading {
   height: 60px;
   position: relative;
   width: 154.11px;
 }
 
-.web-joongna-com-by .overlap-group {
-  height: 60px;
-  position: relative;
-  top: -1px;
-  width: 155px;
-}
-
-.web-joongna-com-by .text-wrapper-5 {
+.div-mx-auto .text-wrapper-4 {
   color: var(--webjoongnacommine-shaft);
   font-family: "Inter-Bold", Helvetica;
   font-size: 38.4px;
@@ -315,11 +308,11 @@
   letter-spacing: 0;
   line-height: 60px;
   position: absolute;
-  top: 0;
+  top: -1px;
   white-space: nowrap;
 }
 
-.web-joongna-com-by .text-wrapper-6 {
+.div-mx-auto .text-wrapper-5 {
   color: var(--webjoongnacommine-shaft);
   font-family: "Inter-Bold", Helvetica;
   font-size: 16px;
@@ -329,11 +322,11 @@
   letter-spacing: 0;
   line-height: 24px;
   position: absolute;
-  top: 26px;
+  top: 25px;
   white-space: nowrap;
 }
 
-.web-joongna-com-by .heading {
+.div-mx-auto .heading {
   align-items: flex-start;
   display: flex;
   justify-content: space-between;
@@ -343,7 +336,7 @@
   width: 612px;
 }
 
-.web-joongna-com-by .p {
+.div-mx-auto .text-wrapper-6 {
   color: var(--webjoongnacommine-shaft);
   font-family: "Inter-Bold", Helvetica;
   font-size: 22.9px;
@@ -356,7 +349,16 @@
   width: fit-content;
 }
 
-.web-joongna-com-by .view-2 {
+.div-mx-auto .view-2 {
   flex: 0 0 auto;
   position: relative;
 }
+
+.div-mx-auto .img {
+  height: 2822px;
+  left: 50px;
+  position: absolute;
+  top: 734px;
+  width: 1200px;
+}
+

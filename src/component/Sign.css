@@ -16,13 +16,27 @@
   position: relative;
   width: 1300px;
 }
-
-.sign .view {
+.sign .view-2 {
   height: 295px;
-  left: 472px;
+  left: 460px;
   position: absolute;
   top: 210px;
   width: 413px;
+}
+
+
+.sign .rectangle {
+  height: 28px;
+  position: absolute;
+  top: 5px;
+  width: 120px;
+  background-color: #ffffff;
+  border: 0.5px solid;
+  border-color: #000000;
+  border-radius: 15px;
+  font-size: 13px;
+  left: 1150px;
+
 }
 
 .sign .overlap-group {
@@ -36,8 +50,8 @@
   -webkit-text-fill-color: transparent;
   background: linear-gradient(
     180deg,
-    rgb(51, 0, 255) 0%,
-    rgb(173.4, 0, 255) 100%
+    #87CEFA 0%,
+    #c287fc 100%
   );
   background-clip: text;
   color: transparent;

@@ -3,7 +3,16 @@ import { Link } from "react-router-dom";
 import KakaoLogin from "./KakaoLogin";
 import "./Kakaosign.css";
 
-function Kakaosign() {
+const Kakaosign = () => {
+  const REST_API_KEY = "ee1656f10977a74e60cf2cd41e6bc0d6";
+  const REDIRECT_URI = "http://localhost:3000";
+  const KAKAO_LOGIN_URL = `https://kauth.kakao.com/oauth/authorize?client_id=${REST_API_KEY}&redirect_uri=${REDIRECT_URI}&response_type=code
+  `;
+
+  // 카카오 로그인 페이지로 리디렉션합니다.
+  const handleKakaoLogin = () => {
+    window.location.href = KAKAO_LOGIN_URL;
+  };
   return (
     <div className="screen">
       <div className="div">
@@ -40,12 +49,12 @@ function Kakaosign() {
           </div>
         </div>
         <div className="overlap-wrapper">
-          <div className="overlap">
-            <div className="text-wrapper-3">회원가입 완료하기</div>
-          </div>
+          <button className="overlap" onClick={handleKakaoLogin}>
+            카카오톡 회원가입하기
+          </button>
         </div>
       </div>
     </div>
   );
-}
+};
 export default Kakaosign;
